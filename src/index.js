@@ -12,7 +12,7 @@ console.log("vgh");
 // Function to get user roles from the database
 async function getUserRoles(userId) {
   try {
-     const [results] = await db.execute(
+      const [results] = await db.execute(
       `SELECT roles.name AS role
        FROM users
        JOIN user_roles ON users.id = user_roles.user_id
