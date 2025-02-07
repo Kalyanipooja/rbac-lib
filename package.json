@@ -1,0 +1,22 @@
+{
+  "name": "rbac-lib",
+  "version": "1.0.0",
+  "description": "A reusable RBAC library for Node.js projects",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mysql2": "^3.12.0"
+  },
+  "keywords": [
+    "RBAC",
+    "permissions",
+    "roles",
+    "node.js"
+  ],
+  "author": "Kalyani Das",
+  "license": "MIT"
+}
